@@ -32,7 +32,7 @@ const Footer = () => {
             </ul>
         </div>
         <hr />
-        <p>SB news - &copy; 2023 - All rights reserved</p>
+        <p>news journel - &copy; 2023 - All rights reserved</p>
     </footer>
   )
 }

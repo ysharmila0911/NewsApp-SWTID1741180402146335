@@ -7,6 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;
+  background-color: #FFE4C4; /* Skin color */
+  color: #00008b; /* Dark blue text */
+  display: block; /* Ensure body is visible */
 }
 body::-webkit-scrollbar {
   display: none;
@@ -22,4 +25,38 @@ code {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  color: #00008b; /* Dark blue color for spinners */
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 1200px) {
+  body {
+    font-size: 18px;
+    color: #00008b; /* Dark blue text */
+    display: block; /* Ensure body is visible */
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 16px;
+    color: #00008b; /* Dark blue text */
+    display: block; /* Ensure body is visible */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    color: #00008b; /* Dark blue text */
+    display: block; /* Ensure body is visible */
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+    color: #00008b; /* Dark blue text */
+    display: block; /* Ensure body is visible */
+  }
 }

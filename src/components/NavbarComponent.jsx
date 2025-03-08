@@ -23,7 +23,7 @@ const NavbarComponent = () => {
 
         <div className='navbar'>
             <div className='navbar__logo'>
-                <h2  onClick={()=> {setActive("Home"); navigate("/")}} >SB News</h2>
+                <h2  onClick={()=> {setActive("Home"); navigate("/")}} >News Wave</h2>
             </div>
             <div className='navbar__links'>
                 <p className={active === 'Home' ? 'active' : ''} onClick={()=> {setActive("Home"); navigate("/")}} >Home</p>
